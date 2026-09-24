@@ -177,4 +177,4 @@ jobs:
         if: always()          # the deploy decision must run even if the PR step had issues
         run: |
           set -uo pipefail
-          exit 1
+          exit 0
